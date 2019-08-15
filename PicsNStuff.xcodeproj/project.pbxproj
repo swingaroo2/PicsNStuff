@@ -15,6 +15,30 @@
 		922D6F5D2305DAB9004C0C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F5C2305DAB9004C0C34 /* main.m */; };
 		922D6F672305DAB9004C0C34 /* PicsNStuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F662305DAB9004C0C34 /* PicsNStuffTests.m */; };
 		922D6F722305DAB9004C0C34 /* PicsNStuffUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F712305DAB9004C0C34 /* PicsNStuffUITests.m */; };
+		922D6F832305E23E004C0C34 /* PictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F822305E23E004C0C34 /* PictureVC.m */; };
+		922D6F842305E23E004C0C34 /* PictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F822305E23E004C0C34 /* PictureVC.m */; };
+		922D6F852305E23E004C0C34 /* PictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F822305E23E004C0C34 /* PictureVC.m */; };
+		922D6F882305E262004C0C34 /* GalleryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F872305E262004C0C34 /* GalleryVC.m */; };
+		922D6F892305E262004C0C34 /* GalleryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F872305E262004C0C34 /* GalleryVC.m */; };
+		922D6F8A2305E262004C0C34 /* GalleryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F872305E262004C0C34 /* GalleryVC.m */; };
+		922D6F912305E5F6004C0C34 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F902305E5F6004C0C34 /* Picture.swift */; };
+		922D6F922305E5F6004C0C34 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F902305E5F6004C0C34 /* Picture.swift */; };
+		922D6F932305E5F6004C0C34 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F902305E5F6004C0C34 /* Picture.swift */; };
+		922D6F962305E78F004C0C34 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F952305E78F004C0C34 /* Gallery.swift */; };
+		922D6F972305E78F004C0C34 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F952305E78F004C0C34 /* Gallery.swift */; };
+		922D6F982305E78F004C0C34 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922D6F952305E78F004C0C34 /* Gallery.swift */; };
+		92E77C002305EBF90094BFF5 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77BFF2305EBF90094BFF5 /* FlickrService.swift */; };
+		92E77C012305EBF90094BFF5 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77BFF2305EBF90094BFF5 /* FlickrService.swift */; };
+		92E77C022305EBF90094BFF5 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77BFF2305EBF90094BFF5 /* FlickrService.swift */; };
+		92E77C052305F52F0094BFF5 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C042305F52F0094BFF5 /* JSONParser.swift */; };
+		92E77C062305F52F0094BFF5 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C042305F52F0094BFF5 /* JSONParser.swift */; };
+		92E77C072305F52F0094BFF5 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C042305F52F0094BFF5 /* JSONParser.swift */; };
+		92E77C09230609B10094BFF5 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C08230609B10094BFF5 /* Media.swift */; };
+		92E77C0A230609B10094BFF5 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C08230609B10094BFF5 /* Media.swift */; };
+		92E77C0B230609B10094BFF5 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C08230609B10094BFF5 /* Media.swift */; };
+		92E77C0D23060A630094BFF5 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C0C23060A630094BFF5 /* PageViewManager.swift */; };
+		92E77C0E23060A630094BFF5 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C0C23060A630094BFF5 /* PageViewManager.swift */; };
+		92E77C0F23060A630094BFF5 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C0C23060A630094BFF5 /* PageViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +75,19 @@
 		922D6F6D2305DAB9004C0C34 /* PicsNStuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicsNStuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922D6F712305DAB9004C0C34 /* PicsNStuffUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicsNStuffUITests.m; sourceTree = "<group>"; };
 		922D6F732305DAB9004C0C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922D6F812305E23E004C0C34 /* PictureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureVC.h; sourceTree = "<group>"; };
+		922D6F822305E23E004C0C34 /* PictureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureVC.m; sourceTree = "<group>"; };
+		922D6F862305E262004C0C34 /* GalleryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryVC.h; sourceTree = "<group>"; };
+		922D6F872305E262004C0C34 /* GalleryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryVC.m; sourceTree = "<group>"; };
+		922D6F8D2305E5F6004C0C34 /* PicsNStuff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PicsNStuff-Bridging-Header.h"; path = "PicsNStuff/Bridging Headers/PicsNStuff-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		922D6F8E2305E5F6004C0C34 /* PicsNStuffTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicsNStuffTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		922D6F8F2305E5F6004C0C34 /* PicsNStuffUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicsNStuffUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		922D6F902305E5F6004C0C34 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		922D6F952305E78F004C0C34 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		92E77BFF2305EBF90094BFF5 /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+		92E77C042305F52F0094BFF5 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		92E77C08230609B10094BFF5 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		92E77C0C23060A630094BFF5 /* PageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +140,13 @@
 			children = (
 				922D6F4D2305DAB8004C0C34 /* AppDelegate.h */,
 				922D6F4E2305DAB8004C0C34 /* AppDelegate.m */,
-				922D6F502305DAB8004C0C34 /* ViewController.h */,
-				922D6F512305DAB8004C0C34 /* ViewController.m */,
-				922D6F532305DAB8004C0C34 /* Main.storyboard */,
-				922D6F562305DAB9004C0C34 /* Assets.xcassets */,
-				922D6F582305DAB9004C0C34 /* LaunchScreen.storyboard */,
-				922D6F5B2305DAB9004C0C34 /* Info.plist */,
 				922D6F5C2305DAB9004C0C34 /* main.m */,
+				922D6F5B2305DAB9004C0C34 /* Info.plist */,
+				922D6F942305E602004C0C34 /* Bridging Headers */,
+				922D6F8C2305E5D2004C0C34 /* Model */,
+				922D6F7F2305DACB004C0C34 /* Resources */,
+				92E77C032305F1460094BFF5 /* Service Layer */,
+				922D6F802305DADB004C0C34 /* View Controllers */,
 			);
 			path = PicsNStuff;
 			sourceTree = "<group>";
@@ -130,6 +167,75 @@
 				922D6F732305DAB9004C0C34 /* Info.plist */,
 			);
 			path = PicsNStuffUITests;
+			sourceTree = "<group>";
+		};
+		922D6F7F2305DACB004C0C34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				922D6F562305DAB9004C0C34 /* Assets.xcassets */,
+				922D6F582305DAB9004C0C34 /* LaunchScreen.storyboard */,
+				922D6F532305DAB8004C0C34 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		922D6F802305DADB004C0C34 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				922D6F8B2305E267004C0C34 /* View Managers */,
+				922D6F862305E262004C0C34 /* GalleryVC.h */,
+				922D6F812305E23E004C0C34 /* PictureVC.h */,
+				922D6F502305DAB8004C0C34 /* ViewController.h */,
+				922D6F872305E262004C0C34 /* GalleryVC.m */,
+				922D6F822305E23E004C0C34 /* PictureVC.m */,
+				922D6F512305DAB8004C0C34 /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		922D6F8B2305E267004C0C34 /* View Managers */ = {
+			isa = PBXGroup;
+			children = (
+				92E77C0C23060A630094BFF5 /* PageViewManager.swift */,
+			);
+			path = "View Managers";
+			sourceTree = "<group>";
+		};
+		922D6F8C2305E5D2004C0C34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92E77BFE2305EBBF0094BFF5 /* Model Objects */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		922D6F942305E602004C0C34 /* Bridging Headers */ = {
+			isa = PBXGroup;
+			children = (
+				922D6F8D2305E5F6004C0C34 /* PicsNStuff-Bridging-Header.h */,
+				922D6F8E2305E5F6004C0C34 /* PicsNStuffTests-Bridging-Header.h */,
+				922D6F8F2305E5F6004C0C34 /* PicsNStuffUITests-Bridging-Header.h */,
+			);
+			path = "Bridging Headers";
+			sourceTree = "<group>";
+		};
+		92E77BFE2305EBBF0094BFF5 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				922D6F902305E5F6004C0C34 /* Picture.swift */,
+				922D6F952305E78F004C0C34 /* Gallery.swift */,
+				92E77C08230609B10094BFF5 /* Media.swift */,
+			);
+			path = "Model Objects";
+			sourceTree = "<group>";
+		};
+		92E77C032305F1460094BFF5 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				92E77BFF2305EBF90094BFF5 /* FlickrService.swift */,
+				92E77C042305F52F0094BFF5 /* JSONParser.swift */,
+			);
+			path = "Service Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,13 +305,16 @@
 				TargetAttributes = {
 					922D6F492305DAB8004C0C34 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					922D6F612305DAB9004C0C34 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 922D6F492305DAB8004C0C34;
 					};
 					922D6F6C2305DAB9004C0C34 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 922D6F492305DAB8004C0C34;
 					};
 				};
@@ -262,9 +371,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922D6F912305E5F6004C0C34 /* Picture.swift in Sources */,
 				922D6F522305DAB8004C0C34 /* ViewController.m in Sources */,
+				92E77C052305F52F0094BFF5 /* JSONParser.swift in Sources */,
+				92E77C002305EBF90094BFF5 /* FlickrService.swift in Sources */,
+				92E77C0D23060A630094BFF5 /* PageViewManager.swift in Sources */,
+				92E77C09230609B10094BFF5 /* Media.swift in Sources */,
+				922D6F962305E78F004C0C34 /* Gallery.swift in Sources */,
 				922D6F5D2305DAB9004C0C34 /* main.m in Sources */,
 				922D6F4F2305DAB8004C0C34 /* AppDelegate.m in Sources */,
+				922D6F832305E23E004C0C34 /* PictureVC.m in Sources */,
+				922D6F882305E262004C0C34 /* GalleryVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +389,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922D6F922305E5F6004C0C34 /* Picture.swift in Sources */,
+				922D6F972305E78F004C0C34 /* Gallery.swift in Sources */,
+				92E77C062305F52F0094BFF5 /* JSONParser.swift in Sources */,
+				92E77C0E23060A630094BFF5 /* PageViewManager.swift in Sources */,
+				92E77C012305EBF90094BFF5 /* FlickrService.swift in Sources */,
 				922D6F672305DAB9004C0C34 /* PicsNStuffTests.m in Sources */,
+				922D6F842305E23E004C0C34 /* PictureVC.m in Sources */,
+				92E77C0A230609B10094BFF5 /* Media.swift in Sources */,
+				922D6F892305E262004C0C34 /* GalleryVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +405,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922D6F932305E5F6004C0C34 /* Picture.swift in Sources */,
+				922D6F982305E78F004C0C34 /* Gallery.swift in Sources */,
+				92E77C072305F52F0094BFF5 /* JSONParser.swift in Sources */,
+				92E77C0F23060A630094BFF5 /* PageViewManager.swift in Sources */,
+				92E77C022305EBF90094BFF5 /* FlickrService.swift in Sources */,
 				922D6F722305DAB9004C0C34 /* PicsNStuffUITests.m in Sources */,
+				922D6F852305E23E004C0C34 /* PictureVC.m in Sources */,
+				92E77C0B230609B10094BFF5 /* Media.swift in Sources */,
+				922D6F8A2305E262004C0C34 /* GalleryVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +568,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8CD362E4H7;
 				INFOPLIST_FILE = PicsNStuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +579,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swingaroo2.apps.PicsNStuff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicsNStuff/Bridging Headers/PicsNStuff-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,7 +591,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8CD362E4H7;
 				INFOPLIST_FILE = PicsNStuff/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,6 +602,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swingaroo2.apps.PicsNStuff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicsNStuff/Bridging Headers/PicsNStuff-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -468,7 +612,9 @@
 		922D6F7A2305DAB9004C0C34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CD362E4H7;
 				INFOPLIST_FILE = PicsNStuffTests/Info.plist;
@@ -479,6 +625,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swingaroo2.apps.PicsNStuffTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicsNStuff/Model/PicsNStuffTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicsNStuff.app/PicsNStuff";
 			};
@@ -487,7 +636,9 @@
 		922D6F7B2305DAB9004C0C34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CD362E4H7;
 				INFOPLIST_FILE = PicsNStuffTests/Info.plist;
@@ -498,6 +649,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swingaroo2.apps.PicsNStuffTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicsNStuff/Model/PicsNStuffTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicsNStuff.app/PicsNStuff";
 			};
@@ -506,6 +659,8 @@
 		922D6F7D2305DAB9004C0C34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CD362E4H7;
 				INFOPLIST_FILE = PicsNStuffUITests/Info.plist;
@@ -516,6 +671,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swingaroo2.apps.PicsNStuffUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicsNStuff/Model/PicsNStuffUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PicsNStuff;
 			};
@@ -524,6 +682,8 @@
 		922D6F7E2305DAB9004C0C34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CD362E4H7;
 				INFOPLIST_FILE = PicsNStuffUITests/Info.plist;
@@ -534,6 +694,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.swingaroo2.apps.PicsNStuffUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicsNStuff/Model/PicsNStuffUITests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PicsNStuff;
 			};
