@@ -16,7 +16,6 @@ class FlickrService: NSObject {
     let feedURL = URL(string: "https://api.flickr.com/services/feeds/photos_public.gne?format=json")!
     var gallery: Gallery?
     
-    // TODO: Consider HttpClient class
     func initiate(completion: @escaping ServiceCompletionHandler) {
         let session = URLSession(configuration: .default)
         let httpClient = HttpClient(session)
@@ -38,18 +37,37 @@ class FlickrService: NSObject {
     
 }
 
-// TODO: Put this in its own class
 class HttpClient {
     
     typealias RequestCompletionHandler = (Codable?, NSError?) -> ()
+    typealias ImageRequestCompletionHandler = (Data?, NSError?) -> ()
     let session: URLSession
     
     init(_ session: URLSession) {
         self.session = session
     }
     
-    func get(_ url: URL, completion: @escaping RequestCompletionHandler) {
-        URLSession(configuration: .default).dataTask(with: url) { data, response, error in
+    // TODO: Better solution would be to create one get function and return data
+    //       in completion handler. As this is a simple exercise, the change isn't
+    //       worth the time.
+    func getImage(_ imageUrl: URL, completion: @escaping ImageRequestCompletionHandler) {
+        session.dataTask(with: imageUrl) { data, response, error in
+            guard error == nil else {
+                completion(nil, error as NSError?)
+                return
+            }
+            
+            guard let imageData = data else {
+                let error = NSError(domain: "com.swingaroo2.picsnstuff", code: 500, userInfo: [NSLocalizedDescriptionKey:"Invalid image data received from the server"])
+                completion(nil, error)
+                return
+            }
+            completion(imageData, nil)
+        }.resume()
+    }
+    
+    func get(_ galleryURL: URL, completion: @escaping RequestCompletionHandler) {
+        session.dataTask(with: galleryURL) { data, response, error in
             guard error == nil else {
                 completion(nil, error as NSError?)
                 return
@@ -61,7 +79,8 @@ class HttpClient {
                 return
             }
             
-            let gallery = JSONParser.decode(jsonData , into: Gallery.self)
+            var gallery = JSONParser.decode(jsonData , into: Gallery.self)
+            gallery?.pictures.sort { $0.published < $1.published }
             completion(gallery, nil)
             
         }.resume()

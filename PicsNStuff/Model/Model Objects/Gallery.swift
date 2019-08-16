@@ -14,9 +14,10 @@ struct Gallery: Codable {
     var description: String?
     var modified: Date?
     var generator: String?
-    var items: [Picture]
+    var pictures: [Picture]
     
     private enum CodingKeys: String, CodingKey {
-        case title, items
+        case title
+        case pictures = "items"
     }
 }

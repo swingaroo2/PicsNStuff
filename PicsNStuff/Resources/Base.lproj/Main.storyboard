@@ -29,9 +29,21 @@
                                     <segue destination="O8h-VJ-FOG" kind="embed" id="FxM-XI-Z5u"/>
                                 </connections>
                             </containerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pull to Refresh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwu-VC-pKF">
+                                <rect key="frame" x="151.5" y="44" width="111" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="111" id="IMP-uD-3xo"/>
+                                    <constraint firstAttribute="height" constant="21" id="mb4-Eg-1sU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.086274509803921567" green="0.23529411764705882" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Hwu-VC-pKF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ODr-So-bQI"/>
+                            <constraint firstItem="Hwu-VC-pKF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kEa-kL-aUj"/>
                             <constraint firstItem="a02-ge-WlR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lgG-z8-t1A"/>
                             <constraint firstItem="a02-ge-WlR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="noU-NQ-Hrj"/>
                         </constraints>
@@ -45,8 +57,8 @@
         <!--GalleryVC-->
         <scene sceneID="TT6-k9-cz1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dth-7l-7VO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="O8h-VJ-FOG" customClass="GalleryVC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dth-7l-7VO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="672" y="21"/>
         </scene>

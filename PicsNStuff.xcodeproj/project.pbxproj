@@ -39,6 +39,12 @@
 		92E77C0D23060A630094BFF5 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C0C23060A630094BFF5 /* PageViewManager.swift */; };
 		92E77C0E23060A630094BFF5 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C0C23060A630094BFF5 /* PageViewManager.swift */; };
 		92E77C0F23060A630094BFF5 /* PageViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C0C23060A630094BFF5 /* PageViewManager.swift */; };
+		92E77C11230734B40094BFF5 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C10230734B40094BFF5 /* ImageService.swift */; };
+		92E77C12230734B40094BFF5 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C10230734B40094BFF5 /* ImageService.swift */; };
+		92E77C13230734B40094BFF5 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C10230734B40094BFF5 /* ImageService.swift */; };
+		92E77C1623073A310094BFF5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C1523073A310094BFF5 /* UIViewController+Extensions.swift */; };
+		92E77C1723073A310094BFF5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C1523073A310094BFF5 /* UIViewController+Extensions.swift */; };
+		92E77C1823073A310094BFF5 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E77C1523073A310094BFF5 /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,18 +82,20 @@
 		922D6F712305DAB9004C0C34 /* PicsNStuffUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicsNStuffUITests.m; sourceTree = "<group>"; };
 		922D6F732305DAB9004C0C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		922D6F812305E23E004C0C34 /* PictureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureVC.h; sourceTree = "<group>"; };
-		922D6F822305E23E004C0C34 /* PictureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureVC.m; sourceTree = "<group>"; };
+		922D6F822305E23E004C0C34 /* PictureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureVC.m; sourceTree = "<group>"; wrapsLines = 0; };
 		922D6F862305E262004C0C34 /* GalleryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryVC.h; sourceTree = "<group>"; };
-		922D6F872305E262004C0C34 /* GalleryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryVC.m; sourceTree = "<group>"; };
+		922D6F872305E262004C0C34 /* GalleryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryVC.m; sourceTree = "<group>"; wrapsLines = 0; };
 		922D6F8D2305E5F6004C0C34 /* PicsNStuff-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PicsNStuff-Bridging-Header.h"; path = "PicsNStuff/Bridging Headers/PicsNStuff-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		922D6F8E2305E5F6004C0C34 /* PicsNStuffTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicsNStuffTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		922D6F8F2305E5F6004C0C34 /* PicsNStuffUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicsNStuffUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		922D6F902305E5F6004C0C34 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		922D6F952305E78F004C0C34 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
-		92E77BFF2305EBF90094BFF5 /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+		92E77BFF2305EBF90094BFF5 /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		92E77C042305F52F0094BFF5 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		92E77C08230609B10094BFF5 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
-		92E77C0C23060A630094BFF5 /* PageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManager.swift; sourceTree = "<group>"; };
+		92E77C0C23060A630094BFF5 /* PageViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewManager.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		92E77C10230734B40094BFF5 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		92E77C1523073A310094BFF5 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +151,7 @@
 				922D6F5C2305DAB9004C0C34 /* main.m */,
 				922D6F5B2305DAB9004C0C34 /* Info.plist */,
 				922D6F942305E602004C0C34 /* Bridging Headers */,
+				92E77C1423073A150094BFF5 /* Extensions */,
 				922D6F8C2305E5D2004C0C34 /* Model */,
 				922D6F7F2305DACB004C0C34 /* Resources */,
 				92E77C032305F1460094BFF5 /* Service Layer */,
@@ -234,8 +243,17 @@
 			children = (
 				92E77BFF2305EBF90094BFF5 /* FlickrService.swift */,
 				92E77C042305F52F0094BFF5 /* JSONParser.swift */,
+				92E77C10230734B40094BFF5 /* ImageService.swift */,
 			);
 			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		92E77C1423073A150094BFF5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92E77C1523073A310094BFF5 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,9 +391,11 @@
 			files = (
 				922D6F912305E5F6004C0C34 /* Picture.swift in Sources */,
 				922D6F522305DAB8004C0C34 /* ViewController.m in Sources */,
+				92E77C1623073A310094BFF5 /* UIViewController+Extensions.swift in Sources */,
 				92E77C052305F52F0094BFF5 /* JSONParser.swift in Sources */,
 				92E77C002305EBF90094BFF5 /* FlickrService.swift in Sources */,
 				92E77C0D23060A630094BFF5 /* PageViewManager.swift in Sources */,
+				92E77C11230734B40094BFF5 /* ImageService.swift in Sources */,
 				92E77C09230609B10094BFF5 /* Media.swift in Sources */,
 				922D6F962305E78F004C0C34 /* Gallery.swift in Sources */,
 				922D6F5D2305DAB9004C0C34 /* main.m in Sources */,
@@ -392,8 +412,10 @@
 				922D6F922305E5F6004C0C34 /* Picture.swift in Sources */,
 				922D6F972305E78F004C0C34 /* Gallery.swift in Sources */,
 				92E77C062305F52F0094BFF5 /* JSONParser.swift in Sources */,
+				92E77C12230734B40094BFF5 /* ImageService.swift in Sources */,
 				92E77C0E23060A630094BFF5 /* PageViewManager.swift in Sources */,
 				92E77C012305EBF90094BFF5 /* FlickrService.swift in Sources */,
+				92E77C1723073A310094BFF5 /* UIViewController+Extensions.swift in Sources */,
 				922D6F672305DAB9004C0C34 /* PicsNStuffTests.m in Sources */,
 				922D6F842305E23E004C0C34 /* PictureVC.m in Sources */,
 				92E77C0A230609B10094BFF5 /* Media.swift in Sources */,
@@ -408,8 +430,10 @@
 				922D6F932305E5F6004C0C34 /* Picture.swift in Sources */,
 				922D6F982305E78F004C0C34 /* Gallery.swift in Sources */,
 				92E77C072305F52F0094BFF5 /* JSONParser.swift in Sources */,
+				92E77C13230734B40094BFF5 /* ImageService.swift in Sources */,
 				92E77C0F23060A630094BFF5 /* PageViewManager.swift in Sources */,
 				92E77C022305EBF90094BFF5 /* FlickrService.swift in Sources */,
+				92E77C1823073A310094BFF5 /* UIViewController+Extensions.swift in Sources */,
 				922D6F722305DAB9004C0C34 /* PicsNStuffUITests.m in Sources */,
 				922D6F852305E23E004C0C34 /* PictureVC.m in Sources */,
 				92E77C0B230609B10094BFF5 /* Media.swift in Sources */,

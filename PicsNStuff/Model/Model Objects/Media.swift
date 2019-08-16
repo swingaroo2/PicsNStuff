@@ -9,5 +9,9 @@
 import Foundation
 
 struct Media: Codable {
-    var m: URL
+    var imageURL: URL
+    
+    private enum CodingKeys: String, CodingKey {
+        case imageURL = "m"
+    }
 }

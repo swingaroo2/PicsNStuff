@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PictureVC : UIViewController
-
+- (instancetype)initWithImageURL:(NSURL*)url andTitle:(NSString*)title;
 @end
 
 NS_ASSUME_NONNULL_END
